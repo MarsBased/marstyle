@@ -35,6 +35,9 @@ Style/Lambda:
 Rails/Delegate:
   Enabled: false
 
+Rails/OutputSafety:
+  Enabled: false
+
 ################ Enable cops #############################
 Rails:
   Enabled: true
