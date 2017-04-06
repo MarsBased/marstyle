@@ -109,7 +109,10 @@ Metrics/ModuleLength:
 Style/VariableNumber:
   EnforcedStyle: 'snake_case'
 
-# Because of ActiveAdmin
+# ActiveAdmin, some config files (like rails environments or simple form) and the Rspec
+# specs use large blocks that we shouldn't consider as problems.
 Metrics/BlockLength:
   Exclude:
     - 'app/admin/**/*'
+    - 'config/**/*'
+    - 'spec/**/*'
