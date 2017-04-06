@@ -38,6 +38,9 @@ Rails/Delegate:
 Rails/OutputSafety:
   Enabled: false
 
+Rails/SkipsModelValidations:
+  Enabled: false
+
 ################ Enable cops #############################
 Rails:
   Enabled: true
