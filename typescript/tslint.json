@@ -152,6 +152,9 @@
         "no-unnecessary-initializer": true,
         "no-unsafe-finally": true,
         "no-unused-expression": true,
+        "no-unused-variable": [
+            true
+        ],
         "no-var-keyword": true,
         "no-var-requires": true,
         "object-literal-key-quotes": [
@@ -179,7 +182,7 @@
             true,
             {
                 "import-sources-order": "case-insensitive",
-                "named-imports-order": "case-insensitivet"
+                "named-imports-order": "case-insensitive"
             }
         ],
         "prefer-const": true,
