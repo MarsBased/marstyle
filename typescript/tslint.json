@@ -181,10 +181,10 @@
             true,
             {
                 "import-sources-order": "case-insensitive",
-                "named-imports-order": "case-insensitive"
+                "named-imports-order": "any"
             }
         ],
-        "prefer-const": true,
+        "prefer-const": false,
         "prefer-for-of": true,
         "prefer-function-over-method": [
             true,
@@ -226,7 +226,8 @@
             "parameter",
             "arrow-parameter",
             "property-declaration",
-            "member-variable-declaration"
+            "member-variable-declaration",
+            "call-signature"
         ],
         "typedef-whitespace": [
             true,
