@@ -1,0 +1,21 @@
+{
+  "name": "marstyle-typescript",
+  "version": "1.0.0",
+  "description": "TSLint Rules for MarsBased",
+  "main": "tslint.json",
+  "repository": "http://github.com/MarsBased/marstyle/tree/master/typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tslint",
+    "marsbased",
+    "typescript",
+    "linter"
+  ],
+  "author": "MarsBased",
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^5.5.0"
+  }
+}
