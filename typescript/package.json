@@ -1,6 +1,6 @@
 {
-  "name": "marstyle-typescript",
-  "version": "1.0.0",
+  "name": "@marsbased/marstyle-typescript",
+  "version": "1.0.1",
   "description": "TSLint Rules for MarsBased",
   "main": "tslint.json",
   "repository": "http://github.com/MarsBased/marstyle/tree/master/typescript",

@@ -7,14 +7,16 @@ Set of tslint rules
 Install the dependency
 
 ```shell
-npm i marstyle-typescript --save-dev
+npm i @marsbased/marstyle-typescript --save-dev
 ```
 
 Use it from your tslint.json file
 
 ```json
 {
-  "extends": [ "marstyle-typescript" ]
+  "extends": [
+    "@marsbased/marstyle-typescript"
+  ]
 }
 ```
 
@@ -22,7 +24,7 @@ If you prefer you can overwrite some rules:
 
 ```json
 {
-  "extends": [ "marstyle-typescript" ],
+  "extends": [ "@marsbased/marstyle-typescript" ],
   "rules": {
     "adjacent-overload-signatures": false
   }
