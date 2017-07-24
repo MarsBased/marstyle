@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40marsbased%2Fmarstyle-typescript.svg)](https://badge.fury.io/js/%40marsbased%2Fmarstyle-typescript)
+
 # marstyle-ts
 
 Set of tslint rules
