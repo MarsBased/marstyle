@@ -145,6 +145,7 @@
     "no-string-literal": true,
     "no-string-throw": true,
     "no-switch-case-fall-through": true,
+    "no-this-assignment": true,
     "no-trailing-whitespace": true,
     "no-unnecessary-callback-wrapper": true,
     "no-unnecessary-initializer": true,
@@ -245,7 +246,6 @@
         "variable-declaration": "onespace"
       }
     ],
-    "typeof-compare": true,
     "unified-signatures": true,
     "use-isnan": true,
     "variable-name": [

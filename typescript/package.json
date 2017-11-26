@@ -16,6 +16,6 @@
   "author": "MarsBased",
   "license": "MIT",
   "dependencies": {
-    "tslint": "^5.5.0"
+    "tslint": "^5.8.0"
   }
 }
