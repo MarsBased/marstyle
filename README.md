@@ -40,3 +40,11 @@ If you prefer you can overwrite some rules:
   }
 }
 ```
+
+## Prettier install instructions
+
+To add the prettier configuration file to your project, download the file directly from Github executing this script in your project root folder:
+
+```
+curl https://raw.githubusercontent.com/MarsBased/marstyle/master/prettier/.prettierrc.json > .prettierrc.json
+```
