@@ -1,6 +1,6 @@
 {
   "name": "@marsbased/marstyle-stylelint",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "stylelint Rules for MarsBased",
   "repository": "http://github.com/MarsBased/marstyle/tree/master/stylelint",
   "scripts": {
