@@ -6,12 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "stylelint",
-    "marsbased",
-    "scss",
-    "linter"
-  ],
+  "main": "index.js",
+  "files": ["index.js"],
+  "keywords": ["stylelint", "marsbased", "scss", "linter"],
   "author": "MarsBased",
   "license": "MIT",
   "dependencies": {
