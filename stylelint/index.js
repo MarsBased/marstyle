@@ -228,7 +228,7 @@ module.exports = {
     ],
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': [
-      always,
+      'always',
       {
         except: ['first-nested'],
         ignore: ['after-comment']
