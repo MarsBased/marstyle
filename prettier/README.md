@@ -8,13 +8,9 @@ Set of prettier rules
 
 ## Prettier install instructions
 
-To add the prettier configuration file to your project, download the file directly from Github executing this script in your project root folder:
+### Option 1
 
-```
-curl https://raw.githubusercontent.com/MarsBased/marstyle/master/prettier/prettier.config.js > prettier.config.js
-```
-
-If you prefer you can install it as a dependency
+You can install it as a dependency
 
 ```shell
 npm i @marsbased/marstyle-prettier --save-dev
@@ -26,3 +22,10 @@ Use it from your prettier.config.js file
 module.exports = require('@marsbased/marstyle-prettier');
 ```
 
+### Option 2
+
+To add the prettier configuration file to your project, download the file directly from Github executing this script in your project root folder:
+
+```
+curl https://raw.githubusercontent.com/MarsBased/marstyle/master/prettier/prettier.config.js > prettier.config.js
+```
