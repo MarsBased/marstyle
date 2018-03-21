@@ -1,0 +1,13 @@
+{
+  "name": "@marsbased/marstyle-prettier",
+  "version": "1.0.0",
+  "description": "Prettier Rules for Marsbased",
+  "main": "prettier.config.js",
+  "repository": "http://github.com/MarsBased/marstyle/tree/master/prettier",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["prettier", "marsbased", "javascript", "typescript", "css"],
+  "author": "MarsBased",
+  "license": "MIT"
+}
