@@ -7,7 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["tslint", "marsbased", "typescript", "linter"],
+  "keywords": [
+    "tslint",
+    "marsbased",
+    "typescript",
+    "linter"
+  ],
   "author": "MarsBased",
   "contributors": [
     {
@@ -22,5 +27,8 @@
   "peerDependencies": {
     "tslint": "^5.10.0",
     "typescript": "^2.1.0"
+  },
+  "dependencies": {
+    "tslint-consistent-codestyle": "^1.13.0"
   }
 }
