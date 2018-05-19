@@ -2,17 +2,12 @@
   "name": "@marsbased/marstyle-typescript",
   "version": "1.2.0",
   "description": "TSLint Rules for MarsBased",
-  "main": "tslint.json",
+  "main": "tslint.js",
   "repository": "http://github.com/MarsBased/marstyle/tree/master/typescript",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "tslint",
-    "marsbased",
-    "typescript",
-    "linter"
-  ],
+  "keywords": ["tslint", "marsbased", "typescript", "linter"],
   "author": "MarsBased",
   "contributors": [
     {
@@ -24,12 +19,14 @@
     "url": "https://github.com/MarsBased/marstyle/issues"
   },
   "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^2.1.0",
+    "tslint": "^5.10.0"
+  },
   "dependencies": {
-    "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.12.0",
     "tslint-consistent-codestyle": "^1.13.0",
     "tslint-eslint-rules-recommended": "^1.0.1",
-    "tslint-microsoft-contrib": "^5.0.3",
-    "typescript": "^2.1.0"
+    "tslint-microsoft-contrib": "^5.0.3"
   }
 }

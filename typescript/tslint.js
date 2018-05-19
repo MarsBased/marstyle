@@ -1,4 +1,4 @@
-{
+module.exports = {
   "extends": [
     "tslint-consistent-codestyle",
     "tslint-eslint-rules-recommended",
@@ -7,6 +7,7 @@
     "tslint-config-prettier"
   ],
   "rules": {
+    // TSLint
     "arrow-parens": [true, "ban-single-arg-parens"],
     "arrow-return-shorthand": true,
     "ban-types": [
@@ -115,8 +116,11 @@
       "check-typecast",
       "check-type-operator",
       "check-preblock"
-    ]
-  },
+    ],
+    // tslint-consistent-codestyle
+    "object-shorthand-properties-first": false,
 
-  "object-shorthand-properties-first": false  
-}
+    // tslint-microsoft-contrib
+    "missing-jsdoc": false
+  }  
+};
