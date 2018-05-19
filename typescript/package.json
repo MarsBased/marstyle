@@ -24,12 +24,12 @@
     "url": "https://github.com/MarsBased/marstyle/issues"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "tslint": "^5.10.0",
-    "typescript": "^2.1.0"
-  },
   "dependencies": {
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.12.0",
     "tslint-consistent-codestyle": "^1.13.0",
-    "tslint-eslint-rules": "^5.3.1"
+    "tslint-eslint-rules-recommended": "^1.0.1",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "typescript": "^2.1.0"
   }
 }

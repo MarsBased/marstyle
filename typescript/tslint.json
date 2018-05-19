@@ -1,5 +1,11 @@
 {
-  "extends": ["tslint-consistent-codestyle", "tslint-eslint-rules"],
+  "extends": [
+    "tslint-consistent-codestyle",
+    "tslint-eslint-rules-recommended",
+    "tslint-microsoft-contrib",
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
   "rules": {
     "arrow-parens": [true, "ban-single-arg-parens"],
     "arrow-return-shorthand": true,
@@ -112,20 +118,5 @@
     ]
   },
 
-  "object-shorthand-properties-first": false,
-
-  "no-constant-condition": true,
-  "no-control-regex": true,
-  "no-duplicate-case": true,
-  "no-empty-character-class": true,
-  "no-ex-assign": true,
-  "no-extra-boolean-cast": true,
-  "no-extra-semi": true,
-  "no-inner-declarations": true,
-  "no-invalid-regexp": true,
-  "no-irregular-whitespace": true,
-  "no-mixed-spaces-and-tabs": true,
-  "no-regex-spaces": true,
-  "no-sparse-arrays": true,
-  "valid-typeof": true
+  "object-shorthand-properties-first": false  
 }
