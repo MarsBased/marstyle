@@ -7,7 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["tslint", "marsbased", "typescript", "linter"],
+  "keywords": [
+    "tslint",
+    "marsbased",
+    "typescript",
+    "linter"
+  ],
   "author": "MarsBased",
   "contributors": [
     {
@@ -20,13 +25,13 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "typescript": "^2.1.0",
-    "tslint": "^5.10.0"
+    "tslint": "^5.10.0",
+    "typescript": "^2.2.0 || ^3.0.0"
   },
   "dependencies": {
-    "tslint-config-prettier": "^1.12.0",
-    "tslint-consistent-codestyle": "^1.13.0",
-    "tslint-eslint-rules-recommended": "^1.0.1",
-    "tslint-microsoft-contrib": "^5.0.3"
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-consistent-codestyle": "^1.13.3",
+    "tslint-eslint-rules-recommended": "^1.2.0",
+    "tslint-microsoft-contrib": "^5.2.1"
   }
 }
