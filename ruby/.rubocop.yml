@@ -4,9 +4,7 @@ AllCops:
   DisplayStyleGuide: true
   Exclude:
       - 'bin/**/*'
-      - 'db/schema.rb'
-      - 'db/structure.sql'
-      - 'db/seeds.rb'
+      - 'db/**/*'
       - '.bundle/**/*'
       - 'vendor/**/*'
 
