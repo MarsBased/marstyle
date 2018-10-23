@@ -29,6 +29,9 @@ Style/SpecialGlobalVars:
 Style/Lambda:
   Enabled: false
 
+Naming/PredicateName:
+  Enabled: false
+
 Rails/Delegate:
   Enabled: false
 
