@@ -77,6 +77,10 @@ Style/PercentLiteralDelimiters:
      '%W': '[]'
      '%x': '()'
 
+Style/LambdaCall:
+  Exclude:
+    - '**/*.jbuilder'
+
 Layout/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines
 
