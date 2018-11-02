@@ -29,6 +29,9 @@ Style/SpecialGlobalVars:
 Style/Lambda:
   Enabled: false
 
+Style/DoubleNegation:
+  Enabled: false
+
 Rails/Delegate:
   Enabled: false
 
