@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/%40marsbased%2Fmarstyle-typescript.svg)](https://badge.fury.io/js/%40marsbased%2Fmarstyle-typescript)
+[![dependencies](https://david-dm.org/marsbased/marstyle?path=typescript.svg)](https://david-dm.org/marsbased/marstyle?path=typescript)
 
 # marstyle-ts
 
