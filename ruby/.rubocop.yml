@@ -4,9 +4,7 @@ AllCops:
   DisplayStyleGuide: true
   Exclude:
       - 'bin/**/*'
-      - 'db/schema.rb'
-      - 'db/structure.sql'
-      - 'db/seeds.rb'
+      - 'db/**/*'
       - '.bundle/**/*'
       - 'vendor/**/*'
 
@@ -30,6 +28,9 @@ Style/Lambda:
   Enabled: false
 
 Naming/PredicateName:
+  Enabled: false
+
+Style/DoubleNegation:
   Enabled: false
 
 Rails/Delegate:
@@ -78,6 +79,10 @@ Style/PercentLiteralDelimiters:
      '%w': '[]'
      '%W': '[]'
      '%x': '()'
+
+Style/LambdaCall:
+  Exclude:
+    - '**/*.jbuilder'
 
 Layout/EmptyLinesAroundClassBody:
   EnforcedStyle: empty_lines
