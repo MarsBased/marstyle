@@ -27,6 +27,9 @@ Style/SpecialGlobalVars:
 Style/Lambda:
   Enabled: false
 
+Naming/PredicateName:
+  Enabled: false
+
 Style/DoubleNegation:
   Enabled: false
 
