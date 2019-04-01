@@ -1,14 +1,21 @@
 {
   "name": "@marsbased/marstyle-stylelint",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "stylelint Rules for MarsBased",
   "repository": "http://github.com/MarsBased/marstyle/tree/master/stylelint",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.js",
-  "files": ["index.js"],
-  "keywords": ["stylelint", "marsbased", "scss", "linter"],
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "stylelint",
+    "marsbased",
+    "scss",
+    "linter"
+  ],
   "author": "MarsBased",
   "license": "MIT",
   "dependencies": {

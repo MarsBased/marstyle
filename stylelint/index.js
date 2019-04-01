@@ -15,7 +15,10 @@ module.exports = {
     'at-rule-no-vendor-prefix': true,
     'at-rule-semicolon-space-before': 'never',
     'block-closing-brace-empty-line-before': 'never',
-    'block-closing-brace-newline-after': 'always',
+    'block-closing-brace-newline-after': [
+      'always',
+      { ignoreAtRules: ['if', 'else'] }
+    ],
     'block-opening-brace-space-before': 'always',
     'color-named': 'never',
     'declaration-block-semicolon-newline-after': 'always-multi-line',
@@ -36,7 +39,10 @@ module.exports = {
     'media-feature-parentheses-space-inside': 'never',
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'never',
-    'max-nesting-depth': 3,
+    'max-nesting-depth': [
+      3,
+      { ignore: ['blockless-at-rules', 'pseudo-classes'] }
+    ],
     'no-descending-specificity': null,
     'no-duplicate-selectors': true,
     'number-leading-zero': 'never',
@@ -228,14 +234,13 @@ module.exports = {
     ],
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': [
-      'always',
+      'always-multi-line',
       {
-        except: ['first-nested'],
-        ignore: ['after-comment']
+        except: ['after-single-line-comment', 'first-nested']
       }
     ],
     'selector-attribute-quotes': 'always',
-    'selector-list-comma-newline-after': 'always-multi-line',
+    'selector-list-comma-newline-after': null,
     'selector-list-comma-newline-before': 'never-multi-line',
     'selector-list-comma-space-after': 'always-single-line',
     'selector-list-comma-space-before': 'never-single-line',
@@ -244,10 +249,11 @@ module.exports = {
     'selector-max-combinators': 4,
     'selector-max-compound-selectors': 4,
     'selector-max-empty-lines': 0,
-    'selector-max-id': 0,
+    'selector-max-id': 2,
     'selector-max-specificity': null,
-    'selector-max-type': 2,
+    'selector-max-type': 3,
     'selector-max-universal': 2,
+    'string-no-newline': null,
     'selector-no-vendor-prefix': true,
     'string-quotes': 'single',
     'value-keyword-case': 'lower',
