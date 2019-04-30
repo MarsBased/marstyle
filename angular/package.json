@@ -1,0 +1,36 @@
+{
+  "name": "@marsbased/marstyle-angular",
+  "version": "1.0.0",
+  "description": "Angular TSLint Rules for MarsBased",
+  "main": "tslint.js",
+  "repository": "http://github.com/MarsBased/marstyle/tree/master/angular",
+  "scripts": {
+    "test": "tslint --test"
+  },
+  "keywords": [
+    "tslint",
+    "angular",
+    "marsbased",
+    "typescript",
+    "linter"
+  ],
+  "author": "MarsBased",
+  "contributors": [
+    {
+      "name": "David GG",
+      "email": "david.garcia@marsbased.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/MarsBased/marstyle/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.2.0 || ^3.0.0"
+  },
+  "dependencies": {
+    "@marsbased/marstyle-typescript": "^1.2.0",
+    "codelyzer": "^5.0.1"
+  }
+}
