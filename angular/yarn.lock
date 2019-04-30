@@ -21,10 +21,10 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
-"@marsbased/marstyle-typescript@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@marsbased/marstyle-typescript/-/marstyle-typescript-1.3.1.tgz#d04562d6f690a1d9737ad02f13eabdafcb76dd86"
-  integrity sha512-JD1bO5J1c8++F9cDd0H61JfkdwZ4+Zs9R8B5lfHMqlAkmdQznvw2g7JleBnPIKtvdBmsQkJzUarjUgpBOwviXg==
+"@marsbased/marstyle-typescript@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@marsbased/marstyle-typescript/-/marstyle-typescript-1.4.0.tgz#05bfb69f1e8c961145c42fc502b83b7e716ce508"
+  integrity sha512-/Tws7MpU+8QVAr4eAdNdDzE/uGZIDoQcHrdHs6xuBw8K2POQHsefeCfXH7ibjmqVXr6CbY70ONbJ0jlK91+VJQ==
   dependencies:
     tslint-config-prettier "^1.18.0"
     tslint-consistent-codestyle "^1.15.1"
