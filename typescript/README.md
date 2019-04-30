@@ -1,7 +1,7 @@
 [![npm version](https://badge.fury.io/js/%40marsbased%2Fmarstyle-typescript.svg)](https://badge.fury.io/js/%40marsbased%2Fmarstyle-typescript)
 [![dependencies](https://david-dm.org/marsbased/marstyle?path=typescript.svg)](https://david-dm.org/marsbased/marstyle?path=typescript)
 
-# marstyle-ts
+# marstyle-typescript
 
 Set of tslint rules
 
@@ -17,9 +17,7 @@ Use it from your tslint.json file
 
 ```json
 {
-  "extends": [
-    "@marsbased/marstyle-typescript"
-  ]
+  "extends": ["@marsbased/marstyle-typescript"]
 }
 ```
 
@@ -27,7 +25,7 @@ If you prefer you can overwrite some rules:
 
 ```json
 {
-  "extends": [ "@marsbased/marstyle-typescript" ],
+  "extends": ["@marsbased/marstyle-typescript"],
   "rules": {
     "adjacent-overload-signatures": false
   }

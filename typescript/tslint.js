@@ -19,8 +19,10 @@ module.exports = {
       ['String', 'Avoid using the `String` type. Did you mean `string`?'],
       ['Boolean', 'Avoid using the `Boolean` type. Did you mean `boolean`?']
     ],
+    'completed-docs': false,
     'cyclomatic-complexity': [true, 20],
-    'import-blacklist': [true, 'rxjs'],
+    'import-blacklist': [true, 'rxjs/Rx'],
+    'interface-name': [true, 'never-prefix'],
     'member-access': [true, 'no-public'],
     'member-ordering': [
       true,
@@ -41,6 +43,7 @@ module.exports = {
     'no-duplicate-variable': true,
     'no-dynamic-delete': true,
     'no-implicit-dependencies': true,
+    'no-inferrable-types': true,
     'no-invalid-this': true,
     'no-magic-numbers': [true, -1, 1, 0, 10],
     'no-parameter-reassignment': true,
@@ -51,7 +54,7 @@ module.exports = {
     'no-switch-case-fall-through': true,
     'no-this-assignment': true,
     'no-unnecessary-callback-wrapper': true,
-    'no-unnecessary-class': true,
+    'no-unnecessary-class': false,
     'no-unnecessary-type-assertion': true,
     'no-unused-expression': [true, 'allow-fast-null-checks'],
     'no-unused-variable': true,
@@ -65,17 +68,17 @@ module.exports = {
     ],
     'prefer-function-over-method': [true, 'allow-public'],
     'prefer-method-signature': true,
-    'prefer-readonly': true,
+    'prefer-readonly': false,
     'prefer-template': [true, 'allow-single-concat'],
     'prefer-while': true,
     'switch-default': true,
     'triple-equals': true,
     /*
-    * typedef rule deactivated -> Waiting for an alternative:
-    *
-    * Right now typedef doesn't check if an inferred type is available. 
-    * Enabling this rule will cause lots of false warnings.
-    */
+     * typedef rule deactivated -> Waiting for an alternative:
+     *
+     * Right now typedef doesn't check if an inferred type is available.
+     * Enabling this rule will cause lots of false warnings.
+     */
     typedef: false,
 
     // tslint-consistent-codestyle
@@ -90,6 +93,7 @@ module.exports = {
     // tslint-microsoft-contrib
     'export-name': false,
     'missing-jsdoc': false,
-    'no-relative-imports': false
+    'no-relative-imports': false,
+    'prefer-type-cast': false
   }
 };
