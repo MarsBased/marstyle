@@ -11,6 +11,7 @@ module.exports = {
     // Overwrite or declare tslint:latest rules.
     // style rules similar to prettier are not included
     'array-type': [true, 'array'],
+    'arrow-return-shorthand': [true, 'multiline'],
     'ban-comma-operator': true,
     'ban-types': [
       true,
@@ -38,14 +39,17 @@ module.exports = {
       }
     ],
     'newline-before-return': true,
+    'no-any': true,
     'no-duplicate-imports': true,
     'no-duplicate-switch-case': true,
     'no-duplicate-variable': true,
     'no-dynamic-delete': true,
+    'no-floating-promises': false,
     'no-implicit-dependencies': true,
     'no-inferrable-types': true,
     'no-invalid-this': true,
     'no-magic-numbers': [true, -1, 1, 0, 10],
+    'no-null-keyword': false,
     'no-parameter-reassignment': true,
     'no-redundant-jsdoc': true,
     'no-require-imports': true,
@@ -57,7 +61,8 @@ module.exports = {
     'no-unnecessary-class': false,
     'no-unnecessary-type-assertion': true,
     'no-unused-expression': [true, 'allow-fast-null-checks'],
-    'no-unused-variable': true,
+    'no-unsafe-any': false,
+    'no-void-expression': [true, 'ignore-arrow-function-shorthand'],
     'object-literal-sort-keys': false,
     'ordered-imports': [
       true,
@@ -71,15 +76,10 @@ module.exports = {
     'prefer-readonly': false,
     'prefer-template': [true, 'allow-single-concat'],
     'prefer-while': true,
+    'promise-function-async': false,
     'switch-default': true,
     'triple-equals': true,
-    /*
-     * typedef rule deactivated -> Waiting for an alternative:
-     *
-     * Right now typedef doesn't check if an inferred type is available.
-     * Enabling this rule will cause lots of false warnings.
-     */
-    typedef: false,
+    typedef: [true, 'parameter', 'arrow-parameter'],
 
     // tslint-consistent-codestyle
     'no-collapsible-if': true,
@@ -89,6 +89,7 @@ module.exports = {
     'no-unused': true,
     'no-var-before-return': true,
     'object-shorthand-properties-first': false,
+    'strict-boolean-expressions': false,
 
     // tslint-microsoft-contrib
     'export-name': false,
