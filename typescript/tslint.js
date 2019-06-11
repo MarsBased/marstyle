@@ -46,7 +46,8 @@ module.exports = {
     'no-dynamic-delete': true,
     'no-floating-promises': false,
     'no-implicit-dependencies': true,
-    'no-inferrable-types': true,
+    // Next rule has a conflict with typedef (https://github.com/palantir/tslint/issues/711)
+    'no-inferrable-types': false,
     'no-invalid-this': true,
     'no-magic-numbers': [true, -1, 1, 0, 10],
     'no-null-keyword': false,
@@ -85,7 +86,7 @@ module.exports = {
     'no-collapsible-if': true,
     'no-return-undefined': true,
     'no-unnecessary-else': true,
-    'no-unnecessary-type-annotation': true,
+    'no-unnecessary-type-annotation': false,
     'no-unused': true,
     'no-var-before-return': true,
     'object-shorthand-properties-first': false,
@@ -95,6 +96,7 @@ module.exports = {
     'export-name': false,
     'missing-jsdoc': false,
     'no-relative-imports': false,
-    'prefer-type-cast': false
+    'prefer-type-cast': false,
+    'no-backbone-get-set-outside-model': [false]
   }
 };
