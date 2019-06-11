@@ -21,17 +21,17 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
-"@marsbased/marstyle-typescript@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@marsbased/marstyle-typescript/-/marstyle-typescript-1.4.0.tgz#05bfb69f1e8c961145c42fc502b83b7e716ce508"
-  integrity sha512-/Tws7MpU+8QVAr4eAdNdDzE/uGZIDoQcHrdHs6xuBw8K2POQHsefeCfXH7ibjmqVXr6CbY70ONbJ0jlK91+VJQ==
+"@marsbased/marstyle-typescript@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@marsbased/marstyle-typescript/-/marstyle-typescript-1.5.1.tgz#230e1c719303b01c2500292d1f3afb6d39291426"
+  integrity sha512-oOireI3MTrQVTYWKovV0/Qj9htVinAjGZlTii/UDY6UMFvHW+1lRmjYN37bM+IyDS5jIa25MfBQhn21LTD+Fpg==
   dependencies:
     tslint-config-prettier "^1.18.0"
     tslint-consistent-codestyle "^1.15.1"
     tslint-eslint-rules-recommended "^1.2.2"
-    tslint-microsoft-contrib "^6.1.1"
+    tslint-microsoft-contrib "^6.2.0"
 
-app-root-path@^2.1.0:
+app-root-path@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-2.2.1.tgz#d0df4a682ee408273583d43f6f79e9892624bc9a"
   integrity sha512-91IFKeKk7FjfmezPKkwtaRvSpnUc4gDwPAjA1YZ9Gn0q0PPeW+vbeUsZuyDwjI7+QTHhcLen2v25fi/AmhvbJA==
@@ -56,12 +56,12 @@ axobject-query@^2.0.2:
   dependencies:
     ast-types-flow "0.0.7"
 
-codelyzer@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.0.1.tgz#c52a593368269b791594603968eb82cbecae3cda"
-  integrity sha512-UVV76+/y1RwaxzCeGPFE3G4GFtfV42r3x8EmRd7XMNFLlLC0ewdtCqWTbvhwPQMxFZZ+OTLEOJNWfyPPn3QFWg==
+codelyzer@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/codelyzer/-/codelyzer-5.1.0.tgz#a0eb89497622679ea4c53b6974aa45598f06a4b5"
+  integrity sha512-QiyY2/oDQnYx4mAVEDqr+z9MwrOto18tQFjExiuRChXCy0yvngS5fQpWIxvAGpbOmZFiR1PRTRLbEI71u10maA==
   dependencies:
-    app-root-path "^2.1.0"
+    app-root-path "^2.2.1"
     aria-query "^3.0.0"
     axobject-query "^2.0.2"
     css-selector-tokenizer "^0.7.1"
@@ -238,10 +238,10 @@ tslint-eslint-rules@^5.4.0:
     tslib "1.9.0"
     tsutils "^3.0.0"
 
-tslint-microsoft-contrib@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-6.1.1.tgz#1de9b5c2867f6cec762bab9d8e1619f2b8eb59fc"
-  integrity sha512-u6tK+tgt8Z1YRJxe4kpWWEx/6FTFxdga50+osnANifsfC7BMzh8c/t/XbNntTRiwMfpHkQ9xtUjizCDLxN1Yeg==
+tslint-microsoft-contrib@^6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-6.2.0.tgz#8aa0f40584d066d05e6a5e7988da5163b85f2ad4"
+  integrity sha512-6tfi/2tHqV/3CL77pULBcK+foty11Rr0idRDxKnteTaKm6gWF9qmaCNU17HVssOuwlYNyOmd9Jsmjd+1t3a3qw==
   dependencies:
     tsutils "^2.27.2 <2.29.0"
 
