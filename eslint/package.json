@@ -1,12 +1,9 @@
 {
   "name": "@marsbased/eslint-config-marsbased",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint Rules for MarsBased",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarsBased/marstyle/tree/master/eslint"
-  },
+  "repository": "https://github.com/MarsBased/marstyle/tree/master/eslint",
   "author": "MarsBased",
   "license": "MIT",
   "keywords": [
@@ -20,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/MarsBased/marstyle/issues"
   },
-  "homepage": "https://github.com/MarsBased/marstyle/eslint/tree/master/eslint-config-marsbased#readme",
+  "homepage": "https://github.com/MarsBased/marstyle/tree/master/eslint",
   "dependencies": {
     "@angular-eslint/eslint-plugin": "0.0.1-alpha.32",
     "@typescript-eslint/eslint-plugin": "^3.3.0",
