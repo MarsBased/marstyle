@@ -1,0 +1,38 @@
+{
+  "name": "@marsbased/eslint-config-marsbased",
+  "version": "1.0.0",
+  "description": "ESLint Rules for MarsBased",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarsBased/marstyle/tree/master/eslint"
+  },
+  "author": "MarsBased",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "linter",
+    "typescript",
+    "angular",
+    "marsbased"
+  ],
+  "bugs": {
+    "url": "https://github.com/MarsBased/marstyle/issues"
+  },
+  "homepage": "https://github.com/MarsBased/marstyle/eslint/tree/master/eslint-config-marsbased#readme",
+  "dependencies": {
+    "@angular-eslint/eslint-plugin": "0.0.1-alpha.32",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jest": "^23.13.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=6.6.0",
+    "typescript": ">=7.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

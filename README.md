@@ -12,30 +12,37 @@ To add a martian .rubocop.yml into your project, download the file directly from
 curl https://raw.githubusercontent.com/MarsBased/marstyle/master/ruby/.rubocop.yml > .rubocop.yml
 ```
 
-## Typescript install instructions
-
-Typescript code linter rules are distributed as a npm package (https://www.npmjs.com/package/@marsbased/marstyle-typescript).
+## ESLint install instructions
 
 Install the dependency
 
-`npm i @marsbased/marstyle-typescript --save-dev`
+```shell
+npm i @marsbased/eslint-config-marsbased --save-dev
+```
 
-Use it from your tslint.json file
+Import the rules in your .eslintrc file
+
+### TypeScript
 
 ```json
 {
-  "extends": ["@marsbased/marstyle-typescript"]
+  "extends": ["@marsbased/eslint-config-marsbased"]
 }
 ```
 
-If you prefer you can overwrite some rules:
+### Angular
 
 ```json
 {
-  "extends": ["@marsbased/marstyle-typescript"],
-  "rules": {
-    "adjacent-overload-signatures": false
-  }
+  "extends": ["@marsbased/eslint-config-marsbased/angular"]
+}
+```
+
+### React
+
+```json
+{
+  "extends": ["@marsbased/eslint-config-marsbased/react"]
 }
 ```
 
