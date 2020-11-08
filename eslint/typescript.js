@@ -12,6 +12,7 @@ module.exports = {
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
     "prettier/@typescript-eslint",
@@ -89,7 +90,7 @@ module.exports = {
       { selector: "default", format: ["camelCase"] },
       {
         selector: "variable",
-        format: ["camelCase", "UPPER_CASE", "snake_case"],
+        format: ["camelCase", "UPPER_CASE", "snake_case", "PascalCase"],
       },
       { selector: "typeLike", format: ["PascalCase"] },
       { selector: "enumMember", format: ["PascalCase", "UPPER_CASE"] },
