@@ -1,6 +1,6 @@
 {
   "name": "@marsbased/eslint-config-marsbased",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "ESLint Rules for MarsBased",
   "main": "index.js",
   "repository": "https://github.com/MarsBased/marstyle/tree/master/eslint",
