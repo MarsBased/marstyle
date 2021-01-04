@@ -55,7 +55,6 @@ module.exports = {
           { pattern: "@shared/**", group: "internal" },
           { pattern: "@core/**", group: "internal" },
           { pattern: "@env/**", group: "internal" },
-          { pattern: "@castor/auth/**", group: "internal" },
           { pattern: "@app/**", group: "internal" },
           { pattern: "@assets/**", group: "internal" },
         ],
