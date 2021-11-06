@@ -1,6 +1,6 @@
 {
   "name": "@marsbased/marstyle-stylelint",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "stylelint Rules for MarsBased",
   "repository": "http://github.com/MarsBased/marstyle/tree/master/stylelint",
   "scripts": {
@@ -19,10 +19,10 @@
   "author": "MarsBased",
   "license": "MIT",
   "dependencies": {
-    "stylelint": "^13.13.1",
-    "stylelint-config-recommended-scss": "^4.2.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-order": "^4.1.0",
-    "stylelint-scss": "^3.8.0"
+    "stylelint": "^14.0.1",
+    "stylelint-config-recommended-scss": "^5.0.1",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.0.0"
   }
 }
